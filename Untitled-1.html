@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Espacial</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="pasteleria">
+    <!-- Headings -->
+<header class="header">
+    <h1>Bienvenidos a pasteleria espacial</h1>
+    <h2>Hogar de: !Un sabor que te lleva a las estrellas¡ </h2>
+</header>
+<aside class="sidebar"><img src="https://elgourmet.s3.amazonaws.com/recetas/share/share_fsr8al91ct_confeti.jpg" alt="delicioso" width="230px" height="200px"></aside>
+<article class="main">
+    <p>Que tal Explorer, espero que tengas un buen dia, en que podemos servirte el dia de hoy?, <br> A continuación te presentamos una lista de los sabores de los pasteles con los que contamos</p>
+    <div id="main-container">
+    <table>
+        <thead>
+     <tr>
+        <th>Sabor</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+    </tr>
+        </thead>
+    <tr>
+        <td>Chocolate</td>
+        <td>500</td>
+        <td><img src="https://i.imgur.com/XH93QTm.jpeg" alt="delicioso chocolate" width="130px" height="100px">
+    </tr>
+    <tr>
+        <td>Vainilla</td>
+        <td>450</td>
+        <td><img src="https://th.bing.com/th/id/R.11796a42a849984565b167f5fee5cd48?rik=p4J4kghgmpWudA&riu=http%3a%2f%2fcdn2.cocinadelirante.com%2fsites%2fdefault%2ffiles%2fimages%2f2017%2f06%2fesponjosopasteldevanilla.jpg&ehk=fIj%2fIt5mK2eMiLXYxklAsSL6YtQ7iDmSZw%2ffHNxbgo0%3d&risl=&pid=ImgRaw&r=0" alt="vainilla deliciosa"  width="130px" height="100px"></td>
+    </tr>
+    <tr>
+        <td>Fresa</td>
+        <td>450</td>
+        <td><img src="https://i.imgur.com/WHZgaNB.jpeg" alt="fresa sabrosa" width="130px" height="100px"></td>
+    </tr>
+    <tr>
+        <td>Tres leches</td>
+        <td>430</td>
+        <td><img src="https://i.imgur.com/a3XacHd.jpeg" alt="3leches" width="130px" height="100px"></td>
+    </tr>
+    <tr>
+        <td>Zarzamora</td>
+        <td>4700</td>
+        <td><img src="https://i.imgur.com/63Tf9bR.jpeg" alt="zarzamora rica" width="130px" height="100px"></td>
+    </tr>
+    <tr>
+        <td>Frutos rojos</td>
+        <td>430</td>
+        <td><img src="https://i.imgur.com/t9OuUaT.jpeg" alt="frutos rojos deliciosos" width="130px" height="100px"></td>
+    </tr>
+        </table>
+    </div>
+<table>
+    <thead>
+    <tr>
+        <th>Adorno</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>Caja de Velas</td>
+        <td>50</td>
+        <td><img src="https://i.imgur.com/ExJQJRt.jpeg" alt="vela divertida" width="130px" height="100px"></a>
+    </tr>
+    <tr>
+        <td>Flores de fondant</td>
+        <td>450</td>
+        <td><img src="https://i.imgur.com/XiXVW3D.jpeg" alt="rosa hermosa" width="130px" height="100px"></td>
+    </tr>
+    <tr>
+        <td>Numeros</td>
+        <td>450</td>
+        <td><img src="https://i.imgur.com/FyryDmU.jpeg" alt="numeros pastel" width="130px" height="100px"></td>
+    </tr>
+    <tr>
+        <td>Cerezas</td>
+        <td>430</td>
+        <td><img src="https://i.imgur.com/b2TXPaa.jpeg" alt="cereza divertida" width="130px" height="100px"></td>
+    </tr>
+    <tr>
+        <td>Granillo de chocolate</td>
+        <td>4700</td>
+        <td><img src="https://i.pinimg.com/736x/61/7c/d3/617cd3e9deb51125825724950b06c6b8--chocolates.jpg" alt="granillo choco" width="130px" height="100px"></td>
+    </tr>
+</table>
+
+<h2>!Por favor elige el sabor de tu pastel¡</h2><br>
+    <input type="radio" id="chocolate" name="sabores" value="Chocolate">
+    <label for="chocolate">Chocolate</label><br>
+    <input type="radio" id="vainilla" name="sabores" value="Vainilla">
+    <label for="vainilla">Vainilla</label><br>
+    <input type="radio" id="fresa" name="sabores" value="Fresa">
+    <label for="fresa">Fresa</label><br>
+    <input type="radio" id="tresleches" name="sabores" value="Tresleches">
+    <label for="tresleches">Tres leches</label><br>
+    <input type="radio" id="zarzamora" name="sabores" value="Zarzamora">
+    <label for="zarzamora">Zarzamora</label><br>
+    <input type="radio" id="frutosrojos" name="sabores" value="Frutosrojos">
+    <label for="frutosrojos">Frutos rojos</label><br>
+
+<h2>!Por favor elige los adornos que quieras para tu pastel¡</h2><br>
+    <input type="checkbox" id="topping1" name="topping1" value="velas">
+    <label for="topping1">Adornar con velas</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="flores">
+    <label for="topping2">Adornar con flores de foundant</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Numeros">
+    <label for="topping3">Adornar con numeros</label><br>
+    <input type="checkbox" id="topping4" name="topping4" value="Cerezas">
+    <label for="topping2">Adornar con Cerezas</label><br>
+    <input type="checkbox" id="topping5" name="topping5" value="Granillo">
+    <label for="topping3">Adornar con granillo de chocolate</label><br><br>
+</article>
+<footer class="footer">
+    <h2>informacion de pasteleria</h2>
+    <p> direccion: <br> avenida del chocolate #7 colonia azucar<br>telefono:<br>5577889665<br>horarios:<br>abrimos de 7 am a 8 pm</p>
+</footer>
+</body>
+</html>
